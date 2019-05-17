@@ -1,0 +1,29 @@
+.nav-bar-items {
+    display: flex; 
+    justify-content: space-around; 
+    grid-gap: 5%; 
+    grid-template-columns: 100%; 
+}
+
+.featured {
+    margin: 0; 
+    padding: 0; 
+    /* background-color: rgb(114, 162, 192);  */
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 1px; 
+    border: 2px solid black; 
+}
+
+.content {
+    margin-top: 40px; 
+    display: grid; 
+    grid-gap: 5%; 
+    grid-template-columns: 50% 50%; 
+    border: 2px solid black; 
+
+}
+
+h2 {
+    font-size: 30px; 
+}
