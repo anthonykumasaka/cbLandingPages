@@ -1,13 +1,34 @@
-
 .nav-bar-items {
     display: flex; 
     justify-content: space-around; 
     grid-gap: 50%; 
     grid-template-columns: 100%; 
-    margin-top: 40px; 
+    /* margin-top: 40px;  */
+    padding: 10px; 
+    /* position: fixed; */
+    /* background-color: #0388A6;  */
 }
 
+.nav-bar-items li {
+    align-self: center; 
+}
+
+.nav-bar-items img {
+    width: 10%; 
+}
+
+
 .section-1 {
+    margin-top: 250px; 
+    padding: 0; 
+    display: grid; 
+    /* grid-gap: 10px;  */
+    grid-template-columns:  1fr; 
+    /* grid-template-rows: 1fr;  */
+    grid-auto-rows: minmax(1fr, auto); 
+}
+
+.section-2 {
     margin-top: 50px; 
     padding: 0; 
     display: grid; 
@@ -22,11 +43,20 @@
     grid-column: 1; 
     font-size: normal; 
     /* font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;  */
-    line-height: 1.2; 
 } 
+
+.section-2 h2 {
+    margin-top: 472px; 
+}
 
 p:nth-child(4) {
     text-align: center; 
+    margin: 0px 310px 0px 0px;
+}
+
+p:nth-child(2) {
+    /* text-align: center;  */
+    margin: 0px 100px 0px 0px;
 }
 
 .section-1 p {
@@ -44,7 +74,7 @@ p:nth-child(4) {
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 4px 50px;
+    margin: 24px 310px 12px 0px;
     cursor: pointer;
     border-radius: 20px; 
 }
@@ -59,6 +89,7 @@ p:nth-child(4) {
 h2 {
     font-size: 30px; 
     color: #0388A6; 
+    line-height: 1.2; 
 }
 
 
@@ -80,21 +111,27 @@ h2 {
     grid-column: 1; 
 }
 
+.grd-awards img {
+    width: 75%; 
+    /* padding: 25px;  */
+    align-self: center;
+    margin-top: 190px; 
+}
+
 @media (min-width: 50em) {
     .grd-awards {
-        grid-template-columns: 12% 1fr 1fr 1fr 1fr 12%;
-        
+        grid-template-columns: 30% 1fr 1fr 1fr 1fr 30%; 
     }
     .grd-awards .t-crunch {
         grid-column: 2; 
     }
-}
-
-@media (min-width: 50em) {
     .section-1 {
         grid-template-columns: 18% 1fr 1fr 18%; 
         grid-template-rows: 1fr; 
-        
+    }
+    .section-2 {
+        grid-template-columns: 18% 1fr 1fr 18%; 
+        grid-template-rows: 1fr; 
     }
     .section-1 img {
         width: 100%; 
@@ -105,6 +142,10 @@ h2 {
         grid-column: 2; 
         font-size: 4vw; 
     }
+    .section-2 h2 {
+        grid-column: 2; 
+        font-size: 4vw; 
+    }
     .section-1 p {
         grid-column: 2; 
     }
@@ -112,10 +153,4 @@ h2 {
     .section-1 button {
         grid-column: 2; 
     }
-}
-.grd-awards img {
-    width: 75%; 
-    /* padding: 25px;  */
-    align-self: center;
-    
 }
