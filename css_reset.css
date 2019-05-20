@@ -5,7 +5,7 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
   font-size: 100%;
   font: inherit;
   vertical-align: baseline;
-  color: #0388A6; 
+  color: black; 
 }
 
 body {
@@ -18,4 +18,8 @@ ol, ul {
 
 img {
   width: 100%
+}
+
+p {
+  margin: 0; 
 }
