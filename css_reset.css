@@ -5,7 +5,8 @@ html, body, div, span, h1, h2, h3, h4, a, ol, ul, li, form, label, article, asid
   font-size: 100%;
   /* font: inherit; */
   vertical-align: baseline;
-  color: #4F5059
+  color: #4F5059;
+  font-family: Soleil; 
 }
 
 body {
@@ -22,4 +23,5 @@ img {
 
 p {
   margin: 0; 
+  font-weight: 100; 
 }
