@@ -8,6 +8,7 @@
     position: fixed; 
     width: 100%; 
     top: 0; 
+    z-index: 1;
 }
 
 .nav-bar-items img {
@@ -52,7 +53,7 @@
 
 .small-txt {
     text-align: center; 
-    margin: 0px 225px 0px 0px;
+    margin: 0px 175px 0px 0px;
     font-size: 14px; 
 }
 
@@ -81,8 +82,8 @@
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
-    margin: 24px 225px 12px 0px;
+    font-size: 14px;
+    margin: 24px 175px 12px 0px;
     /* margin: 24px 250px 12px 0px; */
     cursor: pointer;
     border-radius: 20px; 
@@ -255,7 +256,7 @@ h4 {
     color: white;
     padding: 10px 32px;
     text-align: center;
-    font-size: 16px;
+    font-size: 14px;
     cursor: pointer;
     border-radius: 20px; 
 }
@@ -297,7 +298,7 @@ h4 {
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     /* margin: 24px 250px 12px 0px; */
     cursor: pointer;
     border-radius: 20px; 
@@ -316,8 +317,9 @@ h4 {
 .section-6 {
     margin: 70px 18% 0px 18%; 
     display: grid; 
-    grid-template-columns: 7fr; 
-    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr; 
+    /* grid-template-columns: 7fr;  */
+    /* grid-template-rows: minmax(200px, 1fr);  */
+    /* grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;  */
 }
 
 .section-6 .faq {
@@ -348,11 +350,14 @@ h4 {
 }
 
 /* DROPDOWN ARROW */
+
+/* ▼ */
+
 .fas {
     font-size: 30px; 
     padding-right: 20px;
     padding-top: 10px;  
-    align-self: center; 
+    /* align-self: center;  */
     color: #00AEEF; 
 }
 
@@ -441,7 +446,7 @@ h4 {
     padding: 10px 32px;
     text-align: center;
     text-decoration: none;
-    font-size: 16px;
+    font-size: 14px;
     /* margin: 24px 250px 12px 0px; */
     cursor: pointer;
     border-radius: 20px; 
