@@ -3,6 +3,7 @@
 
 document.addEventListener('DOMContentLoaded', function () {
     //the event occurred
+    const click1 = document.getElementById('click-1'); 
     const arrow1 = document.getElementById('arrow-1'); 
     // const content = document.getElementsByClassName('faq-flex'); 
     const content1 = document.getElementById('a'); 
@@ -10,7 +11,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let clicked1 = false; 
     node1.innerText = "There could be several reasons why you didn’t get matched. For example, maybe there wasn’t an attorney available on your court date or maybe there wasn’t an attorney available in your location. We suggest editing your responses to questions so that you can get matched.  If you still cannot get matched, please contact customer support." 
 
-    arrow1.addEventListener('click', () => {
+    click1.addEventListener('click', () => {
         if (clicked1 === false) {
             content1.appendChild(node1); 
             clicked1 = true; 
@@ -24,6 +25,7 @@ document.addEventListener('DOMContentLoaded', function () {
     })
 
 
+    const click2 = document.getElementById('click-2'); 
     const arrow2 = document.getElementById('arrow-2'); 
     // const content = document.getElementsByClassName('faq-flex'); 
     const content2 = document.getElementById('b'); 
@@ -31,7 +33,7 @@ document.addEventListener('DOMContentLoaded', function () {
     let clicked2 = false; 
     node2.innerText = "There could be several reasons why you didn’t get matched. For example, maybe there wasn’t an attorney available on your court date or maybe there wasn’t an attorney available in your location. We suggest editing your responses to questions so that you can get matched.  If you still cannot get matched, please contact customer support." 
 
-    arrow2.addEventListener('click', () => {
+    click2.addEventListener('click', () => {
         if (clicked2 === false) {
             content2.appendChild(node2); 
             clicked2 = true; 
