@@ -396,7 +396,7 @@ h4 {
     margin: 150px 18% 0px 18%; 
     display: grid; 
     grid-template-columns: 1fr 1fr; 
-    grid-template-rows: 1fr 2fr 2fr; 
+    grid-template-rows: .25fr 2fr 2fr; 
 }
 
 .section-7 h2 {
@@ -410,4 +410,64 @@ h4 {
     flex-direction: column; 
     justify-content: center; 
     align-items: center; 
+    text-align: center; 
+    padding: 50px 100px 50px 100px; 
+}
+
+/* SECTION 8 */
+
+/* .section-8 {
+    margin: 200px 18% 0px 18%; 
+    display: flex; 
+    justify-content: center; 
+} */
+
+.section-8 {
+    margin: 200px 18% 0px 18%; 
+    display: grid;
+    grid-template-columns: 1fr 1fr; 
+    grid-template-rows: 1fr 2fr 1fr .5fr; 
+    grid-column-gap: 10%; 
+}
+
+.section-8 img {
+    grid-column: 1;
+    grid-row: 1 / 4; 
+}
+
+.section-8 div {
+    grid-column: 2; 
+    grid-row: 2; 
+}
+
+.section-8 h2 {
+    font-size: 3vw; 
+    margin-bottom: 25px; 
+}
+
+.section-8 .btn-get-started {
+    grid-column: 1 / 3; 
+    grid-row: 4; 
+    align-self: center; 
+    justify-self: center; 
+}
+
+.btn-get-started button {
+    /* margin: 80px 0px 12px 0px;  */
+    background-color: #00A3FA;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* margin: 24px 250px 12px 0px; */
+    cursor: pointer;
+    border-radius: 20px; 
+}
+
+.btn-get-started p {
+    margin-top: 10px; 
+    text-align: center; 
+    font-size: 14px; 
 }
