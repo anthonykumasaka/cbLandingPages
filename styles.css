@@ -416,12 +416,6 @@ h4 {
 
 /* SECTION 8 */
 
-/* .section-8 {
-    margin: 200px 18% 0px 18%; 
-    display: flex; 
-    justify-content: center; 
-} */
-
 .section-8 {
     margin: 200px 18% 0px 18%; 
     display: grid;
@@ -469,5 +463,32 @@ h4 {
 .btn-get-started p {
     margin-top: 10px; 
     text-align: center; 
+    font-size: 14px; 
+}
+
+/* FOOTER */
+
+.footer {
+    margin: 200px 18% 75px 18%; 
+    display: grid; 
+    grid-template-columns: 2fr 1fr 1fr 1fr; 
+    grid-column-gap: 5%; 
+}
+
+.footer .footer-links {
+    display: grid; 
+    grid-template-rows: 1fr 2fr; 
+    grid-row-gap: 1%; 
+}
+.footer-links li {
+    padding: 0px 0px 5px 0px; 
+    font-weight: 100; 
+    font-size: 14px;
+    color: #878F9D;  
+    /* font-size: .95vw;  */
+}
+
+.footer p {
+    color: #878F9D; 
     font-size: 14px; 
 }
