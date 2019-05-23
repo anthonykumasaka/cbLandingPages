@@ -24,8 +24,8 @@ img {
 p {
   margin: 0; 
   font-weight: 100; 
-  font-size: .95vw; 
-
+  /* font-size: .95vw;  */
+  font-size: 14px;
 }
 
 hr {
@@ -49,4 +49,8 @@ h2 {
     font-size: 30px; 
     color: #0388A6; 
     line-height: 1.2; 
+}
+
+h4 {
+    color: #0388A6;     
 }
