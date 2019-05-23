@@ -29,7 +29,7 @@ p {
 }
 
 hr {
-    display: block;
+    display: none;
     position: relative;
     padding: 0;
     margin: 8px auto;
