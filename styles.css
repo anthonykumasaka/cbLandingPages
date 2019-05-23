@@ -652,6 +652,10 @@
     grid-row: 3; 
 }
 
+.section-8 p {
+    margin-top: 10px; 
+}
+
 .section-8 h2 {
     font-size: 3vw; 
     grid-column: 1; 
@@ -707,7 +711,11 @@
         grid-column: 1;
         grid-row: 1 / 4;
         width: 100%;  
-    }   
+    }  
+
+    .section-8 p {
+        margin-top: 10px; 
+    }
 
     .section-8 div {
         margin-top: 0px; 
